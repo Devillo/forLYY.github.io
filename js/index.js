@@ -24,7 +24,7 @@ var S = {
         if (i !== -1) {
             S.UI.simulate(decodeURI(action).substring(i + 3));
         } else {
-             S.UI.simulate('#circle|亲爱的|郦滢颖|小朋友|现在是|北京时间|#time|我将用|我的方式|表达对您|新年祝福|#countdown 5|和我一起|过年吧！', 3000);
+             S.UI.simulate('#circle|亲爱的|郦滢颖|小朋友|现在是|北京时间|#time|我将用|我的方式|表达|新年祝福|#countdown 5|和我一起|吃年夜饭吧！', 3000);
 
            // S.UI.simulate('#show', 3000);
         }
